@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aime Ndayambaje - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="logo">AIMELIVE</div>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Aime Ndayambaje</h1>
+          <h2 class="hero-subtitle">Full Stack Developer</h2>
+          <p class="hero-description">
+            Crafting digital experiences with modern web technologies.
+            Passionate about creating scalable applications and beautiful user
+            interfaces.
+          </p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-card">
+            <div class="profile-image">
+              <img
+                src="/images/profile.png"
+                alt="Aime Ndayambaje"
+                class="profile-photo"
+                width="200"
+                height="250"
+              />
+            </div>
+            <h3>Welcome to my portfolio</h3>
+            <p>Let's build something amazing together!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="about-content fade-in">
+          <div class="about-image">
+            <div
+              class="about-img"
+              style="
+                height: 300px;
+                background: var(--gradient);
+                border-radius: var(--border-radius);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 4rem;
+                font-weight: bold;
+              "
+            >
+              AIMELIVE
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              I'm a passionate Full Stack Developer with over 3 years of
+              experience in creating web applications that make a difference. My
+              journey began with a curiosity about how websites work, and it has
+              evolved into a deep love for crafting digital solutions.
+            </p>
+            <p>
+              I specialize in modern JavaScript frameworks, responsive design,
+              and scalable backend architectures. When I'm not coding, you can
+              find me exploring new technologies, contributing to open source
+              projects, or enjoying the great outdoors.
+            </p>
+            <p>
+              My goal is to create applications that not only look great but
+              also provide exceptional user experiences and solve real-world
+              problems.
+            </p>
+          </div>
+        </div>
+        <div class="stats fade-in">
+          <div class="stat-item">
+            <div class="stat-number">20+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title fade-in">Skills & Technologies</h2>
+        <div class="skills-grid fade-in">
+          <div class="skill-category">
+            <h3>Frontend Development</h3>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>JavaScript (ES6+)</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="95"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>React.js</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>HTML5 & CSS3</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="95"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Vue.js</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Backend Development</h3>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Node.js</span>
+                <span>88%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="88"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Python</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>PostgreSQL</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>MongoDB</span>
+                <span>82%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="82"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & DevOps</h3>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Git & GitHub</span>
+                <span>92%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="92"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Docker</span>
+                <span>78%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="78"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>AWS</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>CI/CD</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title fade-in">Work Experience</h2>
+        <div class="timeline fade-in">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2024 – Present</div>
+              <h3 class="timeline-title">Software Developer | AEM</h3>
+              <div class="timeline-company">
+                CodeLand S.r.l. (CodeHills Ltd) · Milan, Italy · Remote
+              </div>
+              <p>
+                As an Adobe Experience Manager (AEM) Developer at CodeHills Ltd
+                (a sister company of CodeLand S.r.l.), collaborated with
+                cross-functional teams to deliver tailored solutions aligned
+                with client needs. Specialized in AEM components, templates, and
+                workflows to develop and maintain dynamic web applications,
+                contributing to innovation and excellence in digital experience
+                development.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Nov 2023 – Feb 2024</div>
+              <h3 class="timeline-title">AEM Academy Trainee</h3>
+              <div class="timeline-company">AEM Academy (CodeLand Academy)</div>
+              <p>
+                Completed training on Adobe Experience Manager (AEM) through
+                CodeLand Academy.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Feb 2023 – Nov 2023</div>
+              <h3 class="timeline-title">Full-stack Developer</h3>
+              <div class="timeline-company">
+                FlipSide Ltd · Kigali City, Rwanda · Remote
+              </div>
+              <p>
+                Worked on both front-end and back-end technologies to deliver
+                seamless user experiences. Applied agile methodologies to
+                enhance software products, helping the company grow. Utilized
+                MERN stack, TypeScript, Spring Boot, and Next.js to build
+                high-performance web applications.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Jul 2022 – Dec 2022</div>
+              <h3 class="timeline-title">Software Developer</h3>
+              <div class="timeline-company">
+                Augmented Future · Kigali City, Rwanda · Hybrid
+              </div>
+              <p>
+                Joined a team leveraging Augmented Reality (AR) to improve
+                education and accessibility across Africa. Worked on "Intsinzi –
+                Apps on Google Play", an educational platform offering
+                curriculum-based animations, games, books, and tutoring. Focused
+                on Node.js, TypeScript, and related technologies.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Jan 2022 – Dec 2022</div>
+              <h3 class="timeline-title">ATLP Trainee</h3>
+              <div class="timeline-company">Andela · Rwanda · Remote</div>
+              <p>
+                Completed a 9-month Full-Stack Web Development program,
+                mastering technologies like MERN/PERN, Flutter, and TypeScript.
+                Built various full-stack projects with hands-on experience in
+                both frontend and backend development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title fade-in">Featured Projects</h2>
+        <div class="projects-grid fade-in">
+          <div class="project-card">
+            <div class="project-image">🚗</div>
+            <div class="project-content">
+              <h3 class="project-title">Arakkel Driver</h3>
+              <p class="project-description">
+                <!-- <strong>October 2024 - Present</strong><br> -->
+                Turn your miles into cash with Arakkel! Whether you’re driving
+                to work, running errands, or cruising around town, your car can
+                earn money for you. With Arakkel, you can display tailored ads
+                on your vehicle and offset your lease, fuel, and maintenance
+                expenses effortlessly.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Dart</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">Location Tracking</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="#"
+                  class="project-link link-primary"
+                  onclick="showModal('arakkel')"
+                  >View Details</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">🎓</div>
+            <div class="project-content">
+              <h3 class="project-title">SmartHub</h3>
+              <p class="project-description">
+                <!-- <strong>Aug 2023 - Sep 2023</strong><br> -->
+                SmartHub is an online tutoring platform that connects students
+                with skilled teachers, breaking down geographical barriers and
+                fostering personalized learning.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="#"
+                  class="project-link link-primary"
+                  onclick="showModal('smarthub')"
+                  >View Details</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">📍</div>
+            <div class="project-content">
+              <h3 class="project-title">Quick Step</h3>
+              <p class="project-description">
+                <!-- <strong>Apr 2023 - May 2023</strong><br> -->
+                Real-time live location tracking app built with Flutter, Google
+                Maps, sockets, and Node.js. This full-stack app comes packed
+                with features that allow you to easily view your current
+                location and other users' real-time live location on Google Maps
+                with custom markers.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Dart</span>
+                <span class="tech-tag">Websockets</span>
+                <span class="tech-tag">NodeJS</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="#"
+                  class="project-link link-primary"
+                  onclick="showModal('quickstep')"
+                  >View Details</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title fade-in">Get In Touch</h2>
+        <div class="contact-content fade-in">
+          <div class="contact-info">
+            <h3 style="margin-bottom: 2rem; color: var(--primary-color)">
+              Let's Connect
+            </h3>
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div>
+                <h4>Email</h4>
+                <p>aimendayambaje24@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📱</div>
+              <div>
+                <h4>Phone</h4>
+                <p>+250 786 385 773</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h4>Location</h4>
+                <p>Kigali City, Rwanda</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">💼</div>
+              <div>
+                <h4>LinkedIn</h4>
+                <p>linkedin.com/in/aime-ndayambaje</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <h3 style="margin-bottom: 2rem; color: var(--primary-color)">
+              Send Message
+            </h3>
+            <div class="form-group">
+              <label for="name" class="form-label">Name *</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-input"
+                required
+              />
+              <div class="form-error">Please enter your name</div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-input"
+                required
+              />
+              <div class="form-error">Please enter a valid email address</div>
+            </div>
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject *</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                class="form-input"
+                required
+              />
+              <div class="form-error">Please enter a subject</div>
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message *</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-textarea"
+                required
+              ></textarea>
+              <div class="form-error">Please enter your message</div>
+            </div>
+            <button type="submit" class="btn-submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="social-links">
+          <a href="#" class="social-link">💼</a>
+          <a href="#" class="social-link">🐙</a>
+          <a href="#" class="social-link">🐦</a>
+          <a href="#" class="social-link">📧</a>
+        </div>
+        <p>&copy; 2025 Aime Ndayambaje. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="projectModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalTitle">Project Details</h3>
+          <button class="modal-close" onclick="closeModal()">&times;</button>
+        </div>
+        <div class="modal-body" id="modalBody">
+          <!-- Project details will be inserted here -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
